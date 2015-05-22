@@ -1,0 +1,31 @@
+{
+  "name": "peachy",
+  "main": "peachy.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mmaelzer/peachy",
+  "authors": [
+    "Mike Maelzer <mmaelzer@gmail.com>"
+  ],
+  "description": "A tiny (25 lines of code) parallel async each/map implementation that supports CommonJS, AMD, and VanillaJS.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "each",
+    "async",
+    "asyncEach",
+    "each-async",
+    "async-each",
+    "forEach"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

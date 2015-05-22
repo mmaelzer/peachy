@@ -1,0 +1,30 @@
+{
+  "name": "peachy",
+  "version": "1.0.0",
+  "description": "a tiny (25 lines of code) parallel async each/map module",
+  "main": "peachy.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmaelzer/peachy"
+  },
+  "keywords": [
+    "async",
+    "async-each",
+    "each",
+    "forEach",
+    "parallel",
+    "map"
+  ],
+  "author": "Mike Maelzer <mmaelzer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmaelzer/peachy/issues"
+  },
+  "homepage": "https://github.com/mmaelzer/peachy",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
