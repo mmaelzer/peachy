@@ -20,6 +20,6 @@
   } else if (typeof module !== 'undefined' && module.exports) {
     module.exports = peachy;
   } else {
-    global.asyncEach = peachy;
+    global.parallelEach = peachy;
   }
 })(this);
