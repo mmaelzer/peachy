@@ -1,12 +1,12 @@
 {
   "name": "peachy",
   "main": "peachy.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/mmaelzer/peachy",
   "authors": [
     "Mike Maelzer <mmaelzer@gmail.com>"
   ],
-  "description": "A tiny (25 lines of code) parallel async each/map implementation that supports CommonJS, AMD, and VanillaJS.",
+  "description": "A tiny (23 lines of code) parallel async each/map implementation that supports CommonJS, AMD, and VanillaJS.",
   "moduleType": [
     "amd",
     "globals",

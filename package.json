@@ -1,7 +1,7 @@
 {
   "name": "peachy",
-  "version": "1.0.1",
-  "description": "a tiny (25 lines of code) parallel async each/map module",
+  "version": "1.0.2",
+  "description": "a tiny (23 lines of code) parallel async each/map module",
   "main": "peachy.js",
   "scripts": {
     "test": "node test.js"

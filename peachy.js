@@ -4,15 +4,13 @@
     callback = callback || function(){};
     for (var i = 0; i < items.length; i++) iterate(i);
     function iterate(index) {
-      setTimeout(function() {
-        iterator(items[index], function(err, result) {
-          if (called === -1) return;
-          if (err) called = -1;
-          if (err) return callback(err);
-          results[index] = result;
-          if (++called === items.length) callback(undefined, results);
-        }, index);
-      }, 0);
+      iterator(items[index], function(err, result) {
+        if (called === -1) return;
+        if (err) called = -1;
+        if (err) return callback(err);
+        results[index] = result;
+        if (++called === items.length) callback(undefined, results);
+      }, index);
     }
   }
   if (typeof define !== 'undefined' && define.amd) {
