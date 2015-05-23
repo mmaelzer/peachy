@@ -21,7 +21,7 @@ bower install peachy
 Usage
 -----
 
-### asyncEach(array, iterator, callback)
+### parallelEach(array, iterator, callback)
 
 #### Arguments
 * `array` - An array to iterate over

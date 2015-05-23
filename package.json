@@ -1,6 +1,6 @@
 {
   "name": "peachy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a tiny (23 lines of code) parallel async each/map module",
   "main": "peachy.js",
   "scripts": {
