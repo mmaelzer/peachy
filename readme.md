@@ -3,8 +3,6 @@ peachy
 
 A tiny (23 lines of code) parallel async each/map implementation that supports CommonJS, AMD, and VanillaJS. The minified file `peachy.min.js` is just 360 bytes. 
   
-[![build status](https://secure.travis-ci.org/mmaelzer/peachy.png)](http://travis-ci.org/mmaelzer/peachy)
-
 Install
 -------
 
